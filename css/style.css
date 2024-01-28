@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Montserrat:wght@100;200;300;500&display=swap');
+
+/* font-family: 'Dancing Script', cursive;
+   font-family: 'Montserrat', sans-serif; */
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.logo{
+    font-weight: 500;
+    font-size: 2rem;
+    backdrop-filter: blur(10px);
+}
+
+.header{
+    height: 100vh;
+    background-image: url("../img/imgHeader.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.contenedorTitulo{
+    display: inline-block;
+}
+
+
+.contenedorTitulo .tituloImprenta{
+    font-weight: 300;
+    font-size: 6rem;
+    text-transform: uppercase;
+    padding-left: 1rem;
+    color: black;
+    backdrop-filter: blur(3px);
+}
+
+.contenedorTitulo h1{
+    position: relative;
+    top: 80px;
+}
+
+.contenedorTitulo .p{
+    position: relative;
+    bottom: 80px;
+}
+
+.contenedorTitulo .tituloCursiva{
+    font-family: 'Dancing Script', cursive;
+    font-size: 7rem;
+    position: relative;
+    text-align: center;
+    color: black;
+    z-index: 1;
+}
+
+/* clases generales */
+
+.tituloSecciones{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 6rem;  
+    font-weight: 300;
+    padding: 3rem; 
+   }
+
+.subtituloSecciones{
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 4rem;  
+    font-weight: 300; 
+}
+
+/* seccion About */
+
+/* .seccionAbout{
+    height: 100vh;
+} */
+
+.seccionAbout .contenedorSeccionAbout{
+    background-color: rgb(240, 221, 195);
+}
+
+.contenedorImgAbout{
+    height: 100vh;
+    background-image: url("../img/imgAbout.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.textoAbout{
+    position: relative;
+    width: 350px;
+    top: 200px;
+    right: 100px;
+    float: right;
+    background-color: rgb(240, 221, 195);
+    color: #000000;
+    font-size: 1.5rem;
+    border-radius: 10px;
+    padding: 1rem;
+    opacity: 0.9;
+}
+
+.contenedorFranjaAbout{
+    height: 200px;
+    background-color: rgb(240, 221, 195);
+}
+
+
+/* seccion Composition */
+
+.seccionComposition{
+    height: 100vh;
+}
+
