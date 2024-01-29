@@ -30,27 +30,14 @@
 
 .contenedorTitulo .tituloImprenta{
     font-weight: 300;
-    font-size: 6rem;
     text-transform: uppercase;
     padding-left: 1rem;
     color: black;
     backdrop-filter: blur(3px);
 }
 
-.contenedorTitulo h1{
-    position: relative;
-    top: 80px;
-}
-
-.contenedorTitulo .p{
-    position: relative;
-    bottom: 80px;
-}
-
 .contenedorTitulo .tituloCursiva{
     font-family: 'Dancing Script', cursive;
-    font-size: 7rem;
-    position: relative;
     text-align: center;
     color: black;
     z-index: 1;
@@ -60,17 +47,15 @@
 
 .tituloSecciones{
     text-align: center;
-    text-transform: uppercase;
-    font-size: 6rem;  
+    text-transform: uppercase;  
     font-weight: 300;
-    padding: 3rem; 
+    padding: 3rem;
    }
 
 .subtituloSecciones{
     font-family: 'Dancing Script', cursive;
     text-align: center;
     text-transform: uppercase;
-    font-size: 4rem;  
     font-weight: 300; 
 }
 
@@ -92,14 +77,10 @@
 }
 
 .textoAbout{
-    position: relative;
-    width: 350px;
-    top: 200px;
-    right: 100px;
-    float: right;
+    width: 40%;
+    height: fit-content;
     background-color: rgb(240, 221, 195);
     color: #000000;
-    font-size: 1.5rem;
     border-radius: 10px;
     padding: 1rem;
     opacity: 0.9;
@@ -117,3 +98,8 @@
     height: 100vh;
 }
 
+.row div{
+    height: 50px;
+    margin: 1rem    ;
+    background-color: #000000;
+}
